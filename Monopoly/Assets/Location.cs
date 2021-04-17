@@ -8,7 +8,7 @@ public class Location : MonoBehaviour
 
     void Start()
     {
-        //GameObject.CreatePrimitive(PrimitiveType.Cube).GetComponent<Transform>().;
+        GameObject.CreatePrimitive(PrimitiveType.Cube).transform.SetParent(positionPoint, false);
 
     }
 
